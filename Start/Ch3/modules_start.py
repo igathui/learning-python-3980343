@@ -36,8 +36,7 @@ print("The square root of", num, "is:", math.sqrt(num))
 print("The natural log of", num, "is:", log1p(num))
 
 # Use the 3rd party tabulate module to print tabulated data:
-from tabulate import tabulate
-
+from tabulate import tabulate # import the tabulate module
 
 # Sample data
 data = [
@@ -48,3 +47,5 @@ data = [
 ]
 
 # Create a formatted table
+print("\n Using the tabulate module to print a formatted table:")
+print(tabulate(data, headers="firstrow", tablefmt="fancy_grid"))
