@@ -1,0 +1,5 @@
+This is a sample file.
+This is another line of text.
+This is a is an addendum to the file.
+This is another line of text.
+Woah! Another line of text.
